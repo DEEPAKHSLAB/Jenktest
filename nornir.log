@@ -1,0 +1,1858 @@
+2023-11-30 12:39:26,985 -  nornir.core -     INFO -        run() - Running task 'uptime' with args {} on 4 hosts
+2023-11-30 12:39:26,987 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 8, in uptime
+    result = netmiko_send_command("show system uptime")
+TypeError: netmiko_send_command() missing 1 required positional argument: 'command_string'
+
+2023-11-30 12:39:26,988 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 8, in uptime
+    result = netmiko_send_command("show system uptime")
+TypeError: netmiko_send_command() missing 1 required positional argument: 'command_string'
+
+2023-11-30 12:39:26,988 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 8, in uptime
+    result = netmiko_send_command("show system uptime")
+TypeError: netmiko_send_command() missing 1 required positional argument: 'command_string'
+
+2023-11-30 12:39:26,988 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 8, in uptime
+    result = netmiko_send_command("show system uptime")
+TypeError: netmiko_send_command() missing 1 required positional argument: 'command_string'
+
+2023-11-30 12:39:56,753 -  nornir.core -     INFO -        run() - Running task 'uptime' with args {} on 4 hosts
+2023-11-30 12:39:56,755 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 8, in uptime
+    netmiko_send_command("show system uptime")
+TypeError: netmiko_send_command() missing 1 required positional argument: 'command_string'
+
+2023-11-30 12:39:56,755 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 8, in uptime
+    netmiko_send_command("show system uptime")
+TypeError: netmiko_send_command() missing 1 required positional argument: 'command_string'
+
+2023-11-30 12:39:56,756 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 8, in uptime
+    netmiko_send_command("show system uptime")
+TypeError: netmiko_send_command() missing 1 required positional argument: 'command_string'
+
+2023-11-30 12:39:56,756 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 8, in uptime
+    netmiko_send_command("show system uptime")
+TypeError: netmiko_send_command() missing 1 required positional argument: 'command_string'
+
+2023-11-30 12:40:11,084 -  nornir.core -     INFO -        run() - Running task 'uptime' with args {} on 4 hosts
+2023-11-30 12:40:11,086 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 8, in uptime
+    netmiko_send_command("show system uptime")
+TypeError: netmiko_send_command() missing 1 required positional argument: 'command_string'
+
+2023-11-30 12:40:11,087 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 8, in uptime
+    netmiko_send_command("show system uptime")
+TypeError: netmiko_send_command() missing 1 required positional argument: 'command_string'
+
+2023-11-30 12:40:11,087 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 8, in uptime
+    netmiko_send_command("show system uptime")
+TypeError: netmiko_send_command() missing 1 required positional argument: 'command_string'
+
+2023-11-30 12:40:11,087 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 8, in uptime
+    netmiko_send_command("show system uptime")
+TypeError: netmiko_send_command() missing 1 required positional argument: 'command_string'
+
+2023-11-30 12:40:35,217 -  nornir.core -     INFO -        run() - Running task 'uptime' with args {} on 4 hosts
+2023-11-30 12:40:35,218 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 8, in uptime
+    netmiko_send_command("show system uptime")
+TypeError: netmiko_send_command() missing 1 required positional argument: 'command_string'
+
+2023-11-30 12:40:35,219 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 8, in uptime
+    netmiko_send_command("show system uptime")
+TypeError: netmiko_send_command() missing 1 required positional argument: 'command_string'
+
+2023-11-30 12:40:35,219 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 8, in uptime
+    netmiko_send_command("show system uptime")
+TypeError: netmiko_send_command() missing 1 required positional argument: 'command_string'
+
+2023-11-30 12:40:35,220 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 8, in uptime
+    netmiko_send_command("show system uptime")
+TypeError: netmiko_send_command() missing 1 required positional argument: 'command_string'
+
+2023-11-30 12:44:17,918 -  nornir.core -     INFO -        run() - Running task 'uptime' with args {} on 4 hosts
+2023-11-30 12:44:17,920 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 8, in uptime
+    netmiko_send_command("show system uptime")
+TypeError: netmiko_send_command() missing 1 required positional argument: 'command_string'
+
+2023-11-30 12:44:17,920 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 8, in uptime
+    netmiko_send_command("show system uptime")
+TypeError: netmiko_send_command() missing 1 required positional argument: 'command_string'
+
+2023-11-30 12:44:17,921 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 8, in uptime
+    netmiko_send_command("show system uptime")
+TypeError: netmiko_send_command() missing 1 required positional argument: 'command_string'
+
+2023-11-30 12:44:17,921 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 8, in uptime
+    netmiko_send_command("show system uptime")
+TypeError: netmiko_send_command() missing 1 required positional argument: 'command_string'
+
+2023-11-30 12:44:30,291 -  nornir.core -     INFO -        run() - Running task 'uptime' with args {} on 4 hosts
+2023-11-30 12:44:30,293 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 8, in uptime
+    netmiko_send_command(command_string="show system uptime")
+TypeError: netmiko_send_command() missing 1 required positional argument: 'task'
+
+2023-11-30 12:44:30,293 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 8, in uptime
+    netmiko_send_command(command_string="show system uptime")
+TypeError: netmiko_send_command() missing 1 required positional argument: 'task'
+
+2023-11-30 12:44:30,294 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 8, in uptime
+    netmiko_send_command(command_string="show system uptime")
+TypeError: netmiko_send_command() missing 1 required positional argument: 'task'
+
+2023-11-30 12:44:30,293 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 8, in uptime
+    netmiko_send_command(command_string="show system uptime")
+TypeError: netmiko_send_command() missing 1 required positional argument: 'task'
+
+2023-11-30 12:44:52,862 -  nornir.core -     INFO -        run() - Running task 'uptime' with args {} on 4 hosts
+2023-11-30 12:44:52,864 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 8, in uptime
+    task = netmiko_send_command(command_string="show system uptime")
+TypeError: netmiko_send_command() missing 1 required positional argument: 'task'
+
+2023-11-30 12:44:52,864 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 8, in uptime
+    task = netmiko_send_command(command_string="show system uptime")
+TypeError: netmiko_send_command() missing 1 required positional argument: 'task'
+
+2023-11-30 12:44:52,865 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 8, in uptime
+    task = netmiko_send_command(command_string="show system uptime")
+TypeError: netmiko_send_command() missing 1 required positional argument: 'task'
+
+2023-11-30 12:44:52,865 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 8, in uptime
+    task = netmiko_send_command(command_string="show system uptime")
+TypeError: netmiko_send_command() missing 1 required positional argument: 'task'
+
+2023-11-30 12:46:27,098 -  nornir.core -     INFO -        run() - Running task 'uptime' with args {} on 4 hosts
+2023-11-30 12:46:27,100 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 8, in uptime
+    netmiko_send_command(command_string="show system uptime")
+TypeError: netmiko_send_command() missing 1 required positional argument: 'task'
+
+2023-11-30 12:46:27,101 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 8, in uptime
+    netmiko_send_command(command_string="show system uptime")
+TypeError: netmiko_send_command() missing 1 required positional argument: 'task'
+
+2023-11-30 12:46:27,101 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 8, in uptime
+    netmiko_send_command(command_string="show system uptime")
+TypeError: netmiko_send_command() missing 1 required positional argument: 'task'
+
+2023-11-30 12:46:27,102 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 8, in uptime
+    netmiko_send_command(command_string="show system uptime")
+TypeError: netmiko_send_command() missing 1 required positional argument: 'task'
+
+2023-11-30 12:47:52,830 -  nornir.core -     INFO -        run() - Running task 'uptime' with args {} on 4 hosts
+2023-11-30 12:47:52,831 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 9, in uptime
+    task.run(task=netmiko_send_command(command_string="show system uptime"))
+TypeError: netmiko_send_command() missing 1 required positional argument: 'task'
+
+2023-11-30 12:47:52,832 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 9, in uptime
+    task.run(task=netmiko_send_command(command_string="show system uptime"))
+TypeError: netmiko_send_command() missing 1 required positional argument: 'task'
+
+2023-11-30 12:47:52,833 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 9, in uptime
+    task.run(task=netmiko_send_command(command_string="show system uptime"))
+TypeError: netmiko_send_command() missing 1 required positional argument: 'task'
+
+2023-11-30 12:47:52,833 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 9, in uptime
+    task.run(task=netmiko_send_command(command_string="show system uptime"))
+TypeError: netmiko_send_command() missing 1 required positional argument: 'task'
+
+2023-11-30 12:48:21,857 -  nornir.core -     INFO -        run() - Running task 'uptime' with args {} on 4 hosts
+2023-11-30 12:48:24,955 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 1046, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/paramiko/client.py", line 409, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.255.3
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_netmiko/tasks/netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/netmiko/ssh_dispatcher.py", line 365, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 439, in __init__
+    self._open()
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 444, in _open
+    self.establish_connection()
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 1068, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.exceptions.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: juniper_junos 192.168.255.3:22
+
+
+
+2023-11-30 12:48:24,956 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 9, in uptime
+    task.run(task=netmiko_send_command, command_string="show system uptime")
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_send_command (failed)
+
+
+2023-11-30 12:48:24,957 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 1046, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/paramiko/client.py", line 409, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.255.2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_netmiko/tasks/netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/netmiko/ssh_dispatcher.py", line 365, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 439, in __init__
+    self._open()
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 444, in _open
+    self.establish_connection()
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 1068, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.exceptions.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: juniper_junos 192.168.255.2:22
+
+
+
+2023-11-30 12:48:24,958 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 9, in uptime
+    task.run(task=netmiko_send_command, command_string="show system uptime")
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_send_command (failed)
+
+
+2023-11-30 12:48:24,957 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 1046, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/paramiko/client.py", line 409, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.255.4
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_netmiko/tasks/netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/netmiko/ssh_dispatcher.py", line 365, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 439, in __init__
+    self._open()
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 444, in _open
+    self.establish_connection()
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 1068, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.exceptions.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: juniper_junos 192.168.255.4:22
+
+
+
+2023-11-30 12:48:24,959 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 9, in uptime
+    task.run(task=netmiko_send_command, command_string="show system uptime")
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_send_command (failed)
+
+
+2023-11-30 12:48:31,885 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 1046, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/paramiko/client.py", line 386, in connect
+    sock.connect(addr)
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_netmiko/tasks/netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/netmiko/ssh_dispatcher.py", line 365, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 439, in __init__
+    self._open()
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 444, in _open
+    self.establish_connection()
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 1068, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.exceptions.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: juniper_junos 192.168.255.1:22
+
+
+
+2023-11-30 12:48:31,885 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'uptime' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook1.py", line 9, in uptime
+    task.run(task=netmiko_send_command, command_string="show system uptime")
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_send_command (failed)
+
+
+2023-11-30 12:55:56,546 -  nornir.core -     INFO -        run() - Running task 'uptime' with args {} on 4 hosts
+2023-11-30 12:56:12,927 -  nornir.core -     INFO -        run() - Running task 'uptime' with args {} on 4 hosts
+2023-11-30 13:02:29,456 -  nornir.core -     INFO -        run() - Running task 'uptime' with args {} on 4 hosts
+2023-11-30 13:02:55,147 -  nornir.core -     INFO -        run() - Running task 'uptime' with args {} on 4 hosts
+2023-11-30 13:03:22,532 -  nornir.core -     INFO -        run() - Running task 'uptime' with args {} on 4 hosts
+2023-11-30 13:03:54,293 -  nornir.core -     INFO -        run() - Running task 'uptime' with args {} on 4 hosts
+2023-11-30 13:04:28,405 -  nornir.core -     INFO -        run() - Running task 'uptime' with args {} on 4 hosts
+2023-11-30 13:04:49,449 -  nornir.core -     INFO -        run() - Running task 'uptime' with args {} on 4 hosts
+2023-11-30 13:05:06,534 -  nornir.core -     INFO -        run() - Running task 'uptime' with args {} on 4 hosts
+2023-11-30 13:05:35,580 -  nornir.core -     INFO -        run() - Running task 'uptime' with args {} on 4 hosts
+2023-11-30 13:06:02,597 -  nornir.core -     INFO -        run() - Running task 'uptime' with args {} on 4 hosts
+2023-11-30 14:24:53,303 -  nornir.core -     INFO -        run() - Running task 'set_snmp' with args {} on 4 hosts
+2023-11-30 14:25:03,898 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'netmiko_send_config' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_netmiko/tasks/netmiko_send_config.py", line 38, in netmiko_send_config
+    result = net_connect.send_config_set(config_commands=config_commands, **kwargs)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 2202, in send_config_set
+    output += self.read_until_pattern(pattern=re.escape(cmd.strip()))
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 672, in read_until_pattern
+    raise ReadTimeout(msg)
+netmiko.exceptions.ReadTimeout: 
+
+Pattern not detected: 'set\\ snmp\\ comunity\\ NORNIR\\-NETNIKO' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+
+2023-11-30 14:25:03,899 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'set_snmp' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook2.py", line 8, in set_snmp
+    task.run(task=netmiko_send_config, config_commands=["set snmp comunity NORNIR-NETNIKO"])
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_send_config (failed)
+
+
+2023-11-30 14:25:03,917 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'netmiko_send_config' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_netmiko/tasks/netmiko_send_config.py", line 38, in netmiko_send_config
+    result = net_connect.send_config_set(config_commands=config_commands, **kwargs)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 2202, in send_config_set
+    output += self.read_until_pattern(pattern=re.escape(cmd.strip()))
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 672, in read_until_pattern
+    raise ReadTimeout(msg)
+netmiko.exceptions.ReadTimeout: 
+
+Pattern not detected: 'set\\ snmp\\ comunity\\ NORNIR\\-NETNIKO' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+
+2023-11-30 14:25:03,917 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'set_snmp' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook2.py", line 8, in set_snmp
+    task.run(task=netmiko_send_config, config_commands=["set snmp comunity NORNIR-NETNIKO"])
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_send_config (failed)
+
+
+2023-11-30 14:25:03,924 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'netmiko_send_config' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_netmiko/tasks/netmiko_send_config.py", line 38, in netmiko_send_config
+    result = net_connect.send_config_set(config_commands=config_commands, **kwargs)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 2202, in send_config_set
+    output += self.read_until_pattern(pattern=re.escape(cmd.strip()))
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 672, in read_until_pattern
+    raise ReadTimeout(msg)
+netmiko.exceptions.ReadTimeout: 
+
+Pattern not detected: 'set\\ snmp\\ comunity\\ NORNIR\\-NETNIKO' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+
+2023-11-30 14:25:03,924 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'set_snmp' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook2.py", line 8, in set_snmp
+    task.run(task=netmiko_send_config, config_commands=["set snmp comunity NORNIR-NETNIKO"])
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_send_config (failed)
+
+
+2023-11-30 14:25:03,998 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'netmiko_send_config' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_netmiko/tasks/netmiko_send_config.py", line 38, in netmiko_send_config
+    result = net_connect.send_config_set(config_commands=config_commands, **kwargs)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 2202, in send_config_set
+    output += self.read_until_pattern(pattern=re.escape(cmd.strip()))
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 672, in read_until_pattern
+    raise ReadTimeout(msg)
+netmiko.exceptions.ReadTimeout: 
+
+Pattern not detected: 'set\\ snmp\\ comunity\\ NORNIR\\-NETNIKO' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+
+2023-11-30 14:25:03,999 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'set_snmp' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook2.py", line 8, in set_snmp
+    task.run(task=netmiko_send_config, config_commands=["set snmp comunity NORNIR-NETNIKO"])
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_send_config (failed)
+
+
+2023-11-30 14:25:50,982 -  nornir.core -     INFO -        run() - Running task 'set_snmp' with args {} on 4 hosts
+2023-11-30 14:27:57,503 -  nornir.core -     INFO -        run() - Running task 'set_snmp' with args {} on 4 hosts
+2023-11-30 14:30:15,029 -  nornir.core -     INFO -        run() - Running task 'set_snmp' with args {} on 4 hosts
+2023-11-30 14:30:25,600 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'netmiko_send_config' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_netmiko/tasks/netmiko_send_config.py", line 38, in netmiko_send_config
+    result = net_connect.send_config_set(config_commands=config_commands, **kwargs)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 2202, in send_config_set
+    output += self.read_until_pattern(pattern=re.escape(cmd.strip()))
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 672, in read_until_pattern
+    raise ReadTimeout(msg)
+netmiko.exceptions.ReadTimeout: 
+
+Pattern not detected: 'set\\ snmp\\ community\\ JUNIPER\\ SNMP\\ COMMUNITY' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+
+2023-11-30 14:30:25,601 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'set_snmp' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook2.py", line 8, in set_snmp
+    task.run(task=netmiko_send_config, config_commands=[f"set snmp community {task.host['snmp']}","commit"])
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_send_config (failed)
+
+
+2023-11-30 14:30:25,611 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'netmiko_send_config' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_netmiko/tasks/netmiko_send_config.py", line 38, in netmiko_send_config
+    result = net_connect.send_config_set(config_commands=config_commands, **kwargs)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 2202, in send_config_set
+    output += self.read_until_pattern(pattern=re.escape(cmd.strip()))
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 672, in read_until_pattern
+    raise ReadTimeout(msg)
+netmiko.exceptions.ReadTimeout: 
+
+Pattern not detected: 'set\\ snmp\\ community\\ JUNIPER\\ SNMP\\ COMMUNITY' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+
+2023-11-30 14:30:25,612 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'set_snmp' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook2.py", line 8, in set_snmp
+    task.run(task=netmiko_send_config, config_commands=[f"set snmp community {task.host['snmp']}","commit"])
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_send_config (failed)
+
+
+2023-11-30 14:30:25,657 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'netmiko_send_config' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_netmiko/tasks/netmiko_send_config.py", line 38, in netmiko_send_config
+    result = net_connect.send_config_set(config_commands=config_commands, **kwargs)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 2202, in send_config_set
+    output += self.read_until_pattern(pattern=re.escape(cmd.strip()))
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 672, in read_until_pattern
+    raise ReadTimeout(msg)
+netmiko.exceptions.ReadTimeout: 
+
+Pattern not detected: 'set\\ snmp\\ community\\ JUNIPER\\ SNMP\\ COMMUNITY' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+
+2023-11-30 14:30:25,657 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'set_snmp' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook2.py", line 8, in set_snmp
+    task.run(task=netmiko_send_config, config_commands=[f"set snmp community {task.host['snmp']}","commit"])
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_send_config (failed)
+
+
+2023-11-30 14:30:25,663 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'netmiko_send_config' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_netmiko/tasks/netmiko_send_config.py", line 38, in netmiko_send_config
+    result = net_connect.send_config_set(config_commands=config_commands, **kwargs)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 2202, in send_config_set
+    output += self.read_until_pattern(pattern=re.escape(cmd.strip()))
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/netmiko/base_connection.py", line 672, in read_until_pattern
+    raise ReadTimeout(msg)
+netmiko.exceptions.ReadTimeout: 
+
+Pattern not detected: 'set\\ snmp\\ community\\ JUNIPER\\ SNMP\\ COMMUNITY' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+
+2023-11-30 14:30:25,664 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'set_snmp' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook2.py", line 8, in set_snmp
+    task.run(task=netmiko_send_config, config_commands=[f"set snmp community {task.host['snmp']}","commit"])
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_send_config (failed)
+
+
+2023-11-30 14:31:15,084 -  nornir.core -     INFO -        run() - Running task 'set_snmp' with args {} on 4 hosts
+2023-11-30 14:32:24,526 -  nornir.core -     INFO -        run() - Running task 'set_snmp' with args {} on 4 hosts
+2023-11-30 14:32:41,410 -  nornir.core -     INFO -        run() - Running task 'set_snmp' with args {} on 4 hosts
+2023-11-30 14:36:55,122 -  nornir.core -     INFO -        run() - Running task 'set_snmp' with args {} on 4 hosts
+2023-11-30 14:37:08,532 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 14:37:38,904 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 14:38:08,540 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 14:38:40,085 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 14:39:25,423 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 14:40:57,724 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 14:41:46,835 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 14:42:05,083 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 14:44:16,010 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 14:44:16,646 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 10, in get_some_data
+    print(xmltodict.parse(uptime.result["rp-reply"]["system-uptime-information"]["current-time"]))
+TypeError: string indices must be integers
+
+2023-11-30 14:44:16,660 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 10, in get_some_data
+    print(xmltodict.parse(uptime.result["rp-reply"]["system-uptime-information"]["current-time"]))
+TypeError: string indices must be integers
+
+2023-11-30 14:44:16,684 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 10, in get_some_data
+    print(xmltodict.parse(uptime.result["rp-reply"]["system-uptime-information"]["current-time"]))
+TypeError: string indices must be integers
+
+2023-11-30 14:44:16,686 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 10, in get_some_data
+    print(xmltodict.parse(uptime.result["rp-reply"]["system-uptime-information"]["current-time"]))
+TypeError: string indices must be integers
+
+2023-11-30 14:44:31,146 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 14:44:31,657 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 10, in get_some_data
+    print(xmltodict.parse(uptime.result["rp-reply"]))
+TypeError: string indices must be integers
+
+2023-11-30 14:44:31,666 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 10, in get_some_data
+    print(xmltodict.parse(uptime.result["rp-reply"]))
+TypeError: string indices must be integers
+
+2023-11-30 14:44:31,755 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 10, in get_some_data
+    print(xmltodict.parse(uptime.result["rp-reply"]))
+TypeError: string indices must be integers
+
+2023-11-30 14:44:31,767 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 10, in get_some_data
+    print(xmltodict.parse(uptime.result["rp-reply"]))
+TypeError: string indices must be integers
+
+2023-11-30 14:44:47,967 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 14:45:13,807 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 14:45:14,309 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 10, in get_some_data
+    print(xmltodict.parse(uptime.result["rpc-reply"]["system-uptime-information"]["current-time"]))
+TypeError: string indices must be integers
+
+2023-11-30 14:45:14,312 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 10, in get_some_data
+    print(xmltodict.parse(uptime.result["rpc-reply"]["system-uptime-information"]["current-time"]))
+TypeError: string indices must be integers
+
+2023-11-30 14:45:14,417 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 10, in get_some_data
+    print(xmltodict.parse(uptime.result["rpc-reply"]["system-uptime-information"]["current-time"]))
+TypeError: string indices must be integers
+
+2023-11-30 14:45:14,424 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 10, in get_some_data
+    print(xmltodict.parse(uptime.result["rpc-reply"]["system-uptime-information"]["current-time"]))
+TypeError: string indices must be integers
+
+2023-11-30 14:45:38,735 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 14:45:39,312 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 10, in get_some_data
+    print(xmltodict.parse(uptime.result["rpc-reply"]))
+TypeError: string indices must be integers
+
+2023-11-30 14:45:39,327 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 10, in get_some_data
+    print(xmltodict.parse(uptime.result["rpc-reply"]))
+TypeError: string indices must be integers
+
+2023-11-30 14:45:39,367 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 10, in get_some_data
+    print(xmltodict.parse(uptime.result["rpc-reply"]))
+TypeError: string indices must be integers
+
+2023-11-30 14:45:39,425 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 10, in get_some_data
+    print(xmltodict.parse(uptime.result["rpc-reply"]))
+TypeError: string indices must be integers
+
+2023-11-30 14:47:49,286 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 14:48:30,894 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 14:49:44,061 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 14:49:44,722 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 13, in get_some_data
+    rp(xmltodict.parse(uptime.result["rpc-reply"]))
+TypeError: string indices must be integers
+
+2023-11-30 14:49:44,739 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 13, in get_some_data
+    rp(xmltodict.parse(uptime.result["rpc-reply"]))
+TypeError: string indices must be integers
+
+2023-11-30 14:49:44,741 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 13, in get_some_data
+    rp(xmltodict.parse(uptime.result["rpc-reply"]))
+TypeError: string indices must be integers
+
+2023-11-30 14:49:44,781 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 13, in get_some_data
+    rp(xmltodict.parse(uptime.result["rpc-reply"]))
+TypeError: string indices must be integers
+
+2023-11-30 14:49:57,797 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 14:49:58,248 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 13, in get_some_data
+    rp(xmltodict.parse(uptime.result.keys()))
+AttributeError: 'str' object has no attribute 'keys'
+
+2023-11-30 14:49:58,286 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 13, in get_some_data
+    rp(xmltodict.parse(uptime.result.keys()))
+AttributeError: 'str' object has no attribute 'keys'
+
+2023-11-30 14:49:58,409 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 13, in get_some_data
+    rp(xmltodict.parse(uptime.result.keys()))
+AttributeError: 'str' object has no attribute 'keys'
+
+2023-11-30 14:49:58,445 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 13, in get_some_data
+    rp(xmltodict.parse(uptime.result.keys()))
+AttributeError: 'str' object has no attribute 'keys'
+
+2023-11-30 14:50:36,222 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 14:50:36,806 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 13, in get_some_data
+    rp(xmltodict.parse(result.keys()))
+AttributeError: 'str' object has no attribute 'keys'
+
+2023-11-30 14:50:36,828 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 13, in get_some_data
+    rp(xmltodict.parse(result.keys()))
+AttributeError: 'str' object has no attribute 'keys'
+
+2023-11-30 14:50:36,858 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 13, in get_some_data
+    rp(xmltodict.parse(result.keys()))
+AttributeError: 'str' object has no attribute 'keys'
+
+2023-11-30 14:50:36,896 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 13, in get_some_data
+    rp(xmltodict.parse(result.keys()))
+AttributeError: 'str' object has no attribute 'keys'
+
+2023-11-30 14:50:55,842 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 14:51:27,796 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 14:52:28,672 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 14:52:29,316 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 15, in get_some_data
+    rp(xmltodict.parse(result))
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/xmltodict.py", line 378, in parse
+    parser.Parse(xml_input, True)
+xml.parsers.expat.ExpatError: not well-formed (invalid token): line 1, column 26
+
+2023-11-30 14:52:29,325 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 15, in get_some_data
+    rp(xmltodict.parse(result))
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/xmltodict.py", line 378, in parse
+    parser.Parse(xml_input, True)
+xml.parsers.expat.ExpatError: not well-formed (invalid token): line 1, column 26
+
+2023-11-30 14:52:29,377 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 15, in get_some_data
+    rp(xmltodict.parse(result))
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/xmltodict.py", line 378, in parse
+    parser.Parse(xml_input, True)
+xml.parsers.expat.ExpatError: not well-formed (invalid token): line 1, column 26
+
+2023-11-30 14:52:29,453 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 15, in get_some_data
+    rp(xmltodict.parse(result))
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/xmltodict.py", line 378, in parse
+    parser.Parse(xml_input, True)
+xml.parsers.expat.ExpatError: not well-formed (invalid token): line 1, column 26
+
+2023-11-30 14:53:33,062 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 14:53:54,177 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 14:54:16,361 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 14:56:19,437 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 14:56:20,103 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 15, in get_some_data
+    current_time = result["rpc-reply"]["system-uptime-information"]["#text"]
+KeyError: '#text'
+
+2023-11-30 14:56:20,107 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 15, in get_some_data
+    current_time = result["rpc-reply"]["system-uptime-information"]["#text"]
+KeyError: '#text'
+
+2023-11-30 14:56:20,111 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 15, in get_some_data
+    current_time = result["rpc-reply"]["system-uptime-information"]["#text"]
+KeyError: '#text'
+
+2023-11-30 14:56:20,229 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 15, in get_some_data
+    current_time = result["rpc-reply"]["system-uptime-information"]["#text"]
+KeyError: '#text'
+
+2023-11-30 14:56:35,614 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 14:56:36,159 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 15, in get_some_data
+    current_time = result["rpc-reply"]["system-uptime-information"]["#text"]
+KeyError: '#text'
+
+2023-11-30 14:56:36,174 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 15, in get_some_data
+    current_time = result["rpc-reply"]["system-uptime-information"]["#text"]
+KeyError: '#text'
+
+2023-11-30 14:56:36,206 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 15, in get_some_data
+    current_time = result["rpc-reply"]["system-uptime-information"]["#text"]
+KeyError: '#text'
+
+2023-11-30 14:56:36,213 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 15, in get_some_data
+    current_time = result["rpc-reply"]["system-uptime-information"]["#text"]
+KeyError: '#text'
+
+2023-11-30 14:57:00,338 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 14:57:25,596 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 14:57:26,088 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 15, in get_some_data
+    current_time = result["rpc-reply"]["system-uptime-information"]["current-time"]["#text"]
+KeyError: '#text'
+
+2023-11-30 14:57:26,111 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 15, in get_some_data
+    current_time = result["rpc-reply"]["system-uptime-information"]["current-time"]["#text"]
+KeyError: '#text'
+
+2023-11-30 14:57:26,244 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 15, in get_some_data
+    current_time = result["rpc-reply"]["system-uptime-information"]["current-time"]["#text"]
+KeyError: '#text'
+
+2023-11-30 14:57:26,247 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 15, in get_some_data
+    current_time = result["rpc-reply"]["system-uptime-information"]["current-time"]["#text"]
+KeyError: '#text'
+
+2023-11-30 14:58:04,875 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 14:59:54,702 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 14:59:55,333 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 16, in get_some_data
+    actual_uptime = result["rpc-reply"]["uptime-information"]["current-time"]["date-time"]["#text"]
+KeyError: 'uptime-information'
+
+2023-11-30 14:59:55,399 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 16, in get_some_data
+    actual_uptime = result["rpc-reply"]["uptime-information"]["current-time"]["date-time"]["#text"]
+KeyError: 'uptime-information'
+
+2023-11-30 14:59:55,409 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 16, in get_some_data
+    actual_uptime = result["rpc-reply"]["uptime-information"]["current-time"]["date-time"]["#text"]
+KeyError: 'uptime-information'
+
+2023-11-30 14:59:55,479 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 16, in get_some_data
+    actual_uptime = result["rpc-reply"]["uptime-information"]["current-time"]["date-time"]["#text"]
+KeyError: 'uptime-information'
+
+2023-11-30 15:00:34,624 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:00:35,231 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 16, in get_some_data
+    actual_uptime = result["rpc-reply"]["uptime-information"]["up-time"]["date-time"]["#text"]
+KeyError: 'uptime-information'
+
+2023-11-30 15:00:35,244 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 16, in get_some_data
+    actual_uptime = result["rpc-reply"]["uptime-information"]["up-time"]["date-time"]["#text"]
+KeyError: 'uptime-information'
+
+2023-11-30 15:00:35,291 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 16, in get_some_data
+    actual_uptime = result["rpc-reply"]["uptime-information"]["up-time"]["date-time"]["#text"]
+KeyError: 'uptime-information'
+
+2023-11-30 15:00:35,487 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 16, in get_some_data
+    actual_uptime = result["rpc-reply"]["uptime-information"]["up-time"]["date-time"]["#text"]
+KeyError: 'uptime-information'
+
+2023-11-30 15:00:57,652 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:01:27,796 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:02:05,210 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:03:32,407 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:04:01,130 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:04:01,748 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 15, in get_some_data
+    current_time = result["rpc-reply"]["uptime-information"]
+KeyError: 'uptime-information'
+
+2023-11-30 15:04:01,797 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 15, in get_some_data
+    current_time = result["rpc-reply"]["uptime-information"]
+KeyError: 'uptime-information'
+
+2023-11-30 15:04:01,815 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 15, in get_some_data
+    current_time = result["rpc-reply"]["uptime-information"]
+KeyError: 'uptime-information'
+
+2023-11-30 15:04:01,819 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 15, in get_some_data
+    current_time = result["rpc-reply"]["uptime-information"]
+KeyError: 'uptime-information'
+
+2023-11-30 15:04:24,462 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:04:55,113 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:05:02,700 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:05:51,094 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:06:22,368 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:06:23,052 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 16, in get_some_data
+    actual_uptime = result["rpc-reply"]["system-uptime-information"]["uptime-information"]["up-time"]["date-time"]["#text"]
+KeyError: 'date-time'
+
+2023-11-30 15:06:23,069 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 16, in get_some_data
+    actual_uptime = result["rpc-reply"]["system-uptime-information"]["uptime-information"]["up-time"]["date-time"]["#text"]
+KeyError: 'date-time'
+
+2023-11-30 15:06:23,070 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 16, in get_some_data
+    actual_uptime = result["rpc-reply"]["system-uptime-information"]["uptime-information"]["up-time"]["date-time"]["#text"]
+KeyError: 'date-time'
+
+2023-11-30 15:06:23,070 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'get_some_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/runbook3.py", line 16, in get_some_data
+    actual_uptime = result["rpc-reply"]["system-uptime-information"]["uptime-information"]["up-time"]["date-time"]["#text"]
+KeyError: 'date-time'
+
+2023-11-30 15:06:34,286 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:07:18,904 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:07:40,074 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:08:09,745 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:08:22,261 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:09:37,101 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:09:59,167 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:16:07,397 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:16:31,324 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:16:44,047 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:20:22,401 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:21:33,060 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:22:24,082 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:22:57,797 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:23:16,868 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:23:50,202 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:24:39,669 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:25:07,497 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:26:07,579 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:26:21,025 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:26:45,429 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:27:01,071 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:27:11,298 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:27:47,665 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:28:05,623 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:28:14,697 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:28:25,566 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:28:38,264 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:29:03,240 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:29:17,457 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:29:28,662 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:29:49,621 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:32:08,153 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-11-30 15:32:33,318 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-12-01 18:10:57,936 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-12-01 18:18:59,641 -  nornir.core -     INFO -        run() - Running task 'gather_data' with args {} on 4 hosts
+2023-12-01 18:18:59,645 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'napalm_get' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_napalm/plugins/tasks/napalm_get.py", line 32, in napalm_get
+    device = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_napalm/plugins/connections/__init__.py", line 55, in open
+    network_driver = get_network_driver(platform)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/napalm/base/__init__.py", line 99, in get_network_driver
+    raise ModuleImportError(
+napalm.base.exceptions.ModuleImportError: Cannot import "juniper_junos". Is the library installed?
+
+2023-12-01 18:18:59,647 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'gather_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/napalm_run1.py", line 8, in gather_data
+    task.run(task=napalm_get, getters=["facts"])
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: napalm_get (failed)
+
+
+2023-12-01 18:18:59,649 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'napalm_get' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_napalm/plugins/tasks/napalm_get.py", line 32, in napalm_get
+    device = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_napalm/plugins/connections/__init__.py", line 55, in open
+    network_driver = get_network_driver(platform)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/napalm/base/__init__.py", line 99, in get_network_driver
+    raise ModuleImportError(
+napalm.base.exceptions.ModuleImportError: Cannot import "juniper_junos". Is the library installed?
+
+2023-12-01 18:18:59,649 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'gather_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/napalm_run1.py", line 8, in gather_data
+    task.run(task=napalm_get, getters=["facts"])
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: napalm_get (failed)
+
+
+2023-12-01 18:18:59,650 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'napalm_get' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_napalm/plugins/tasks/napalm_get.py", line 32, in napalm_get
+    device = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_napalm/plugins/connections/__init__.py", line 55, in open
+    network_driver = get_network_driver(platform)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/napalm/base/__init__.py", line 99, in get_network_driver
+    raise ModuleImportError(
+napalm.base.exceptions.ModuleImportError: Cannot import "juniper_junos". Is the library installed?
+
+2023-12-01 18:18:59,651 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'napalm_get' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_napalm/plugins/tasks/napalm_get.py", line 32, in napalm_get
+    device = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_napalm/plugins/connections/__init__.py", line 55, in open
+    network_driver = get_network_driver(platform)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/napalm/base/__init__.py", line 99, in get_network_driver
+    raise ModuleImportError(
+napalm.base.exceptions.ModuleImportError: Cannot import "juniper_junos". Is the library installed?
+
+2023-12-01 18:18:59,651 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'gather_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/napalm_run1.py", line 8, in gather_data
+    task.run(task=napalm_get, getters=["facts"])
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: napalm_get (failed)
+
+
+2023-12-01 18:18:59,652 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'gather_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/napalm_run1.py", line 8, in gather_data
+    task.run(task=napalm_get, getters=["facts"])
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: napalm_get (failed)
+
+
+2023-12-01 18:20:29,645 -  nornir.core -     INFO -        run() - Running task 'gather_data' with args {} on 4 hosts
+2023-12-01 18:20:29,651 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'napalm_get' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_napalm/plugins/tasks/napalm_get.py", line 32, in napalm_get
+    device = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_napalm/plugins/connections/__init__.py", line 55, in open
+    network_driver = get_network_driver(platform)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/napalm/base/__init__.py", line 99, in get_network_driver
+    raise ModuleImportError(
+napalm.base.exceptions.ModuleImportError: Cannot import "juniper_junos". Is the library installed?
+
+2023-12-01 18:20:29,652 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'napalm_get' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_napalm/plugins/tasks/napalm_get.py", line 32, in napalm_get
+    device = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_napalm/plugins/connections/__init__.py", line 55, in open
+    network_driver = get_network_driver(platform)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/napalm/base/__init__.py", line 99, in get_network_driver
+    raise ModuleImportError(
+napalm.base.exceptions.ModuleImportError: Cannot import "juniper_junos". Is the library installed?
+
+2023-12-01 18:20:29,652 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'gather_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/napalm_run1.py", line 8, in gather_data
+    task.run(task=napalm_get, getters=["get_facts"])
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: napalm_get (failed)
+
+
+2023-12-01 18:20:29,653 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'napalm_get' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_napalm/plugins/tasks/napalm_get.py", line 32, in napalm_get
+    device = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_napalm/plugins/connections/__init__.py", line 55, in open
+    network_driver = get_network_driver(platform)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/napalm/base/__init__.py", line 99, in get_network_driver
+    raise ModuleImportError(
+napalm.base.exceptions.ModuleImportError: Cannot import "juniper_junos". Is the library installed?
+
+2023-12-01 18:20:29,654 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'gather_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/napalm_run1.py", line 8, in gather_data
+    task.run(task=napalm_get, getters=["get_facts"])
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: napalm_get (failed)
+
+
+2023-12-01 18:20:29,653 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'gather_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/napalm_run1.py", line 8, in gather_data
+    task.run(task=napalm_get, getters=["get_facts"])
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: napalm_get (failed)
+
+
+2023-12-01 18:20:29,655 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'napalm_get' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_napalm/plugins/tasks/napalm_get.py", line 32, in napalm_get
+    device = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_napalm/plugins/connections/__init__.py", line 55, in open
+    network_driver = get_network_driver(platform)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/napalm/base/__init__.py", line 99, in get_network_driver
+    raise ModuleImportError(
+napalm.base.exceptions.ModuleImportError: Cannot import "juniper_junos". Is the library installed?
+
+2023-12-01 18:20:29,655 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'gather_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/napalm_run1.py", line 8, in gather_data
+    task.run(task=napalm_get, getters=["get_facts"])
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: napalm_get (failed)
+
+
+2023-12-01 18:21:06,825 -  nornir.core -     INFO -        run() - Running task 'gather_data' with args {} on 4 hosts
+2023-12-01 18:21:06,834 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'napalm_get' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_napalm/plugins/tasks/napalm_get.py", line 32, in napalm_get
+    device = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_napalm/plugins/connections/__init__.py", line 55, in open
+    network_driver = get_network_driver(platform)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/napalm/base/__init__.py", line 99, in get_network_driver
+    raise ModuleImportError(
+napalm.base.exceptions.ModuleImportError: Cannot import "juniper_junos". Is the library installed?
+
+2023-12-01 18:21:06,834 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'napalm_get' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_napalm/plugins/tasks/napalm_get.py", line 32, in napalm_get
+    device = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_napalm/plugins/connections/__init__.py", line 55, in open
+    network_driver = get_network_driver(platform)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/napalm/base/__init__.py", line 99, in get_network_driver
+    raise ModuleImportError(
+napalm.base.exceptions.ModuleImportError: Cannot import "juniper_junos". Is the library installed?
+
+2023-12-01 18:21:06,835 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'gather_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/napalm_run1.py", line 8, in gather_data
+    task.run(task=napalm_get, getters=["get_fenvironment"])
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: napalm_get (failed)
+
+
+2023-12-01 18:21:06,835 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'napalm_get' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_napalm/plugins/tasks/napalm_get.py", line 32, in napalm_get
+    device = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_napalm/plugins/connections/__init__.py", line 55, in open
+    network_driver = get_network_driver(platform)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/napalm/base/__init__.py", line 99, in get_network_driver
+    raise ModuleImportError(
+napalm.base.exceptions.ModuleImportError: Cannot import "juniper_junos". Is the library installed?
+
+2023-12-01 18:21:06,835 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'gather_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/napalm_run1.py", line 8, in gather_data
+    task.run(task=napalm_get, getters=["get_fenvironment"])
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: napalm_get (failed)
+
+
+2023-12-01 18:21:06,834 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'napalm_get' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_napalm/plugins/tasks/napalm_get.py", line 32, in napalm_get
+    device = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_napalm/plugins/connections/__init__.py", line 55, in open
+    network_driver = get_network_driver(platform)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/napalm/base/__init__.py", line 99, in get_network_driver
+    raise ModuleImportError(
+napalm.base.exceptions.ModuleImportError: Cannot import "juniper_junos". Is the library installed?
+
+2023-12-01 18:21:06,836 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'gather_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/napalm_run1.py", line 8, in gather_data
+    task.run(task=napalm_get, getters=["get_fenvironment"])
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: napalm_get (failed)
+
+
+2023-12-01 18:21:06,837 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'gather_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/napalm_run1.py", line 8, in gather_data
+    task.run(task=napalm_get, getters=["get_fenvironment"])
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: napalm_get (failed)
+
+
+2023-12-01 18:22:55,538 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-12-01 18:23:28,462 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-12-01 18:23:42,619 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-12-01 18:23:48,649 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-12-01 18:23:54,211 -  nornir.core -     INFO -        run() - Running task 'gather_data' with args {} on 4 hosts
+2023-12-01 18:23:54,903 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'napalm_get' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_napalm/plugins/tasks/napalm_get.py", line 43, in napalm_get
+    method = getattr(device, getter)
+AttributeError: 'JunOSDriver' object has no attribute 'get_fenvironment'
+
+2023-12-01 18:23:54,904 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'gather_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/napalm_run1.py", line 8, in gather_data
+    task.run(task=napalm_get, getters=["get_fenvironment"])
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: napalm_get (failed)
+
+
+2023-12-01 18:23:54,927 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'napalm_get' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_napalm/plugins/tasks/napalm_get.py", line 43, in napalm_get
+    method = getattr(device, getter)
+AttributeError: 'JunOSDriver' object has no attribute 'get_fenvironment'
+
+2023-12-01 18:23:54,927 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'gather_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/napalm_run1.py", line 8, in gather_data
+    task.run(task=napalm_get, getters=["get_fenvironment"])
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: napalm_get (failed)
+
+
+2023-12-01 18:23:55,008 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'napalm_get' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_napalm/plugins/tasks/napalm_get.py", line 43, in napalm_get
+    method = getattr(device, getter)
+AttributeError: 'JunOSDriver' object has no attribute 'get_fenvironment'
+
+2023-12-01 18:23:55,009 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'gather_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/napalm_run1.py", line 8, in gather_data
+    task.run(task=napalm_get, getters=["get_fenvironment"])
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: napalm_get (failed)
+
+
+2023-12-01 18:23:55,060 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'napalm_get' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_napalm/plugins/tasks/napalm_get.py", line 43, in napalm_get
+    method = getattr(device, getter)
+AttributeError: 'JunOSDriver' object has no attribute 'get_fenvironment'
+
+2023-12-01 18:23:55,060 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'gather_data' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/napalm_run1.py", line 8, in gather_data
+    task.run(task=napalm_get, getters=["get_fenvironment"])
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: napalm_get (failed)
+
+
+2023-12-01 18:24:05,857 -  nornir.core -     INFO -        run() - Running task 'gather_data' with args {} on 4 hosts
+2023-12-01 18:24:20,919 -  nornir.core -     INFO -        run() - Running task 'gather_data' with args {} on 4 hosts
+2023-12-01 18:25:07,705 -  nornir.core -     INFO -        run() - Running task 'gather_data' with args {} on 4 hosts
+2023-12-01 18:25:33,212 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-12-01 18:30:37,707 -  nornir.core -     INFO -        run() - Running task 'get_some_data' with args {} on 4 hosts
+2023-12-01 18:30:42,842 -  nornir.core -     INFO -        run() - Running task 'gather_data' with args {} on 4 hosts
+2023-12-01 18:34:32,688 -  nornir.core -     INFO -        run() - Running task 'config_snmp' with args {} on 4 hosts
+2023-12-01 18:35:46,420 -  nornir.core -     INFO -        run() - Running task 'config_snmp' with args {} on 4 hosts
+2023-12-01 18:35:47,905 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 48, in napalm_configure
+    device.commit_config(**commit_kwargs)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/napalm/junos/junos.py", line 302, in commit_config
+    raise CommitConfirmException(
+napalm.base.exceptions.CommitConfirmException: For Junos devices revert_in must be a multiple of 60 (60, 120, 180...)
+
+2023-12-01 18:35:47,906 - nornir.core.task -    ERROR -      start() - Host 'R4': task 'config_snmp' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/napalm_run2.py", line 8, in config_snmp
+    task.run(task=napalm_configure, configuration="set snmp community NORNIR-NAPALM-REVERT", revert_in=10)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: napalm_configure (failed)
+
+
+2023-12-01 18:35:47,932 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 48, in napalm_configure
+    device.commit_config(**commit_kwargs)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/napalm/junos/junos.py", line 302, in commit_config
+    raise CommitConfirmException(
+napalm.base.exceptions.CommitConfirmException: For Junos devices revert_in must be a multiple of 60 (60, 120, 180...)
+
+2023-12-01 18:35:47,932 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'config_snmp' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/napalm_run2.py", line 8, in config_snmp
+    task.run(task=napalm_configure, configuration="set snmp community NORNIR-NAPALM-REVERT", revert_in=10)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: napalm_configure (failed)
+
+
+2023-12-01 18:35:47,935 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 48, in napalm_configure
+    device.commit_config(**commit_kwargs)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/napalm/junos/junos.py", line 302, in commit_config
+    raise CommitConfirmException(
+napalm.base.exceptions.CommitConfirmException: For Junos devices revert_in must be a multiple of 60 (60, 120, 180...)
+
+2023-12-01 18:35:47,935 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'config_snmp' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/napalm_run2.py", line 8, in config_snmp
+    task.run(task=napalm_configure, configuration="set snmp community NORNIR-NAPALM-REVERT", revert_in=10)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: napalm_configure (failed)
+
+
+2023-12-01 18:35:47,937 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 48, in napalm_configure
+    device.commit_config(**commit_kwargs)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/napalm/junos/junos.py", line 302, in commit_config
+    raise CommitConfirmException(
+napalm.base.exceptions.CommitConfirmException: For Junos devices revert_in must be a multiple of 60 (60, 120, 180...)
+
+2023-12-01 18:35:47,937 - nornir.core.task -    ERROR -      start() - Host 'R3': task 'config_snmp' failed with traceback:
+Traceback (most recent call last):
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/nauto/nornir-netmko/napalm_run2.py", line 8, in config_snmp
+    task.run(task=napalm_configure, configuration="set snmp community NORNIR-NAPALM-REVERT", revert_in=10)
+  File "/home/nauto/junauto/.venv/lib/python3.10/site-packages/nornir/core/task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: napalm_configure (failed)
+
+
+2023-12-01 18:36:02,950 -  nornir.core -     INFO -        run() - Running task 'config_snmp' with args {} on 4 hosts

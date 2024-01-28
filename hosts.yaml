@@ -1,0 +1,23 @@
+---
+
+R1:
+  hostname: "192.168.255.1"
+  groups:
+    - juniper
+  data:
+    snmp: "JUNIPER-R1-COMMUNITY"
+
+R2:
+  hostname: "192.168.255.2"
+  groups:
+    - juniper
+
+R3:
+  hostname: "192.168.255.3"
+  groups:
+    - juniper
+
+R4:
+  hostname: "192.168.255.4"
+  groups:
+    - juniper
