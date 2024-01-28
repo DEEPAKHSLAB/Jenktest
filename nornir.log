@@ -1856,3 +1856,4 @@ nornir.core.exceptions.NornirSubTaskError: Subtask: napalm_configure (failed)
 
 
 2023-12-01 18:36:02,950 -  nornir.core -     INFO -        run() - Running task 'config_snmp' with args {} on 4 hosts
+2024-01-28 23:53:34,934 -  nornir.core -     INFO -        run() - Running task 'uptime' with args {} on 4 hosts

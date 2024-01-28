@@ -9,4 +9,4 @@ def uptime(task):
      task.run(task=netmiko_send_command, command_string="show system uptime")
 
 result = nr.run(task=uptime)
-rp(result["R1"][1])
+pr(result)
